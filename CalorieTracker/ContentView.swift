@@ -14,17 +14,17 @@ struct ContentView: View {
                 Color.accentColor.edgesIgnoringSafeArea(.all)
 
                 VStack {
-                    TextField("Gib Stichworte ein (z.B. Gemüse, Pasta, ...)", text: $buzzwords)
+                    TextField("Gib Stichworte ein (z.B. Quinoa, Tofu, ...)", text: $buzzwords)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
 
                     Button(action: {
                         self.showingCamera = true
                     }) {
-                        Text("Food Pic Taker")
+                        Text("Take a pic 😍")
                             .padding()
-                            .background(Color.blue)
-                            .foregroundColor(.white)
+                            .background(Color.white)
+                            .foregroundColor(.black)
                             .cornerRadius(10)
                     }
                     .sheet(isPresented: $showingCamera) {
@@ -68,7 +68,7 @@ struct ContentView: View {
                                     }
                                 }
                             }) {
-                                Text("Analyze Image")
+                                Text("🐘 Calculate my calories 🐘")
                                     .padding()
                                     .background(Color.green)
                                     .foregroundColor(.white)
@@ -80,7 +80,6 @@ struct ContentView: View {
                     // TextEditor for the response
                     TextEditor(text: $imageDescription)
                         .padding()
-                        .background(Color.white)
                         .cornerRadius(10)
                         .frame(minHeight: 100)
 
