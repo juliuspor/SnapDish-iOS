@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61807C42B36066A00755794 /* GptHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61807C32B36066A00755794 /* GptHandler.swift */; };
+		C61807C62B3609AA00755794 /* TakePictureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61807C52B3609AA00755794 /* TakePictureButton.swift */; };
 		C667AB752B35E5BA00F765EC /* CalorieTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667AB742B35E5BA00F765EC /* CalorieTrackerApp.swift */; };
 		C667AB772B35E5BA00F765EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667AB762B35E5BA00F765EC /* ContentView.swift */; };
 		C667AB792B35E5BC00F765EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C667AB782B35E5BC00F765EC /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61807C32B36066A00755794 /* GptHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptHandler.swift; sourceTree = "<group>"; };
+		C61807C52B3609AA00755794 /* TakePictureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePictureButton.swift; sourceTree = "<group>"; };
+		C61807C72B360C5900755794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C667AB712B35E5BA00F765EC /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C667AB742B35E5BA00F765EC /* CalorieTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTrackerApp.swift; sourceTree = "<group>"; };
 		C667AB762B35E5BA00F765EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,8 +99,11 @@
 		C667AB732B35E5BA00F765EC /* CalorieTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C61807C72B360C5900755794 /* Info.plist */,
 				C667AB742B35E5BA00F765EC /* CalorieTrackerApp.swift */,
 				C667AB762B35E5BA00F765EC /* ContentView.swift */,
+				C61807C52B3609AA00755794 /* TakePictureButton.swift */,
+				C61807C32B36066A00755794 /* GptHandler.swift */,
 				C667AB782B35E5BC00F765EC /* Assets.xcassets */,
 				C667AB7A2B35E5BC00F765EC /* Preview Content */,
 			);
@@ -259,6 +267,8 @@
 			files = (
 				C667AB772B35E5BA00F765EC /* ContentView.swift in Sources */,
 				C667AB752B35E5BA00F765EC /* CalorieTrackerApp.swift in Sources */,
+				C61807C42B36066A00755794 /* GptHandler.swift in Sources */,
+				C61807C62B3609AA00755794 /* TakePictureButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +435,14 @@
 				DEVELOPMENT_TEAM = 5BKPV5F59A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalorieTracker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +467,14 @@
 				DEVELOPMENT_TEAM = 5BKPV5F59A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalorieTracker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
