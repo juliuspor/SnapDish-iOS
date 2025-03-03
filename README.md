@@ -1,4 +1,4 @@
-![SnapDish Logo](CalorieTracker/Assets.xcassets/AppIcon.appiconset/DALL-E%202023-12-23%2013.19.37.png)
+![SnapDish Logo](logo.png)
 
 # SnapDish-iOS
 
