@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 class OpenAIHandler {
-    static let apiKey = "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" // Replace with your actual API key
+    static let apiKey = "XXXXXXXXXXXXXXX" // Replace with your actual API key
 
     static func uploadImage(_ image: UIImage, withPrompt prompt: String, completion: @escaping (Result<String, Error>) -> Void) {
         guard let imageData = image.jpegData(compressionQuality: 0.9) else {
