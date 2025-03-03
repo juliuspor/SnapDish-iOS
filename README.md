@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="logo.png" alt="SnapDish Logo" width="200">
-</p>
+<img align="left" width="80" height="80" src="logo.png" alt="App icon">
 
 
 # SnapDish-iOS
