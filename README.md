@@ -5,7 +5,7 @@
 
 # SnapDish-iOS
 
-SnapDish is an iOS application that allows users to take pictures of their food and receive estimated calorie information directly on their device. By leveraging OpenAI's GPT-4 Vision API, SnapDish provides quick and (mostly) accurate calorie estimations to help users maintain their dietary goals.
+SnapDish is a Prototype iOS application that allows users to take pictures of their food and receive estimated calorie information directly on their device. By leveraging OpenAI's GPT-4 Vision API, SnapDish provides quick and (mostly) accurate calorie estimations to help users maintain their dietary goals.
 
 ## Features
 
